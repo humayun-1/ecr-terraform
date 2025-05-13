@@ -1,3 +1,11 @@
-region="us-east-1"
-account_id=140023385240
-repo_name="nodejs-aws-terraform"
+aws_region       = "us-east-1"
+account_id       = 140023385240
+app_name         = "next-app"
+environment      = "production"
+instance_type    = "t3.micro"
+app_port         = 3000
+desired_capacity = 1
+max_size         = 3
+min_size         = 1
+app_path         = "../ecs-next-app"
+domain_name      = "humayunjawad.com"
